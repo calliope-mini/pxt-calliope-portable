@@ -1,0 +1,15 @@
+{
+  "name": "minipxt",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "start": "yarn serve pxt"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "pxt-calliope-static": "calliope-mini/pxt-calliope-static",
+    "serve": "^11.1.0",
+    "yarn-portable": "calliope-edu/yarn-portable"
+  }
+}
