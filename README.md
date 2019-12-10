@@ -1,6 +1,6 @@
-# pxt-calliope-portable
+# MakeCode for Calliope Portable
 
-Starts a local server of calliope pxt without external dependencys.
+Starts a local server of MakeCode for Callliope without external dependencys.
 If you already have NodeJS and yarn or npm on your pc you might want to use https://github.com/calliope-mini/pxt-calliope-static instead.
 
 ## First steps:
