@@ -2,7 +2,9 @@
 
 cd server
 
-node_modules/yarn-portable/node-linux node_modules/yarn-portable/yarn.js install
-node_modules/yarn-portable/node-linux node_modules/yarn-portable/yarn.js upgrade
+yarn-portable/node-linux yarn-portable/yarn.js install
+yarn-portable/node-linux yarn-portable/yarn.js upgrade
+
+cp -avr "node_modules/yarn-portable" "yarn-portable"
 
 exit 0

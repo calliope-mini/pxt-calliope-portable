@@ -4,7 +4,9 @@ cd "${DIR}"
 
 cd server
 
-node_modules/yarn-portable/node-macos node_modules/yarn-portable/yarn.js install
-node_modules/yarn-portable/node-macos node_modules/yarn-portable/yarn.js upgrade
+yarn-portable/node-macos yarn-portable/yarn.js install
+yarn-portable/node-macos yarn-portable/yarn.js upgrade
+
+cp -avr "node_modules/yarn-portable" "yarn-portable"
 
 exit 0
